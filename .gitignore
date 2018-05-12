@@ -1,0 +1,11 @@
+train*
+test*
+processed_test_data*
+processed_train_data*
+*.h5
+*.zip
+*.png
+*.jpg
+.ipy*
+.DS_Store
+log/*
