@@ -3,19 +3,19 @@ import shutil
 import glob
 
 
-def get_num_files(directory):
-    """Get number of files by directory"""
-    """获取文件个数，包括子文件夹？？"""
-    if not os.path.exists(directory):
+def get_subdir_filenum(super_path):  
+    """Get number of files by super directory"""
+    """获取所有子目录下的文件个数"""
+    if not os.path.exists(super_path):
         return 0
     cnt = 0
     file_list =[]
-    for r, dirs, files in os.walk(directory):
+    for r, dirs, files in os.walk(super_path):
+        print(dirs)
         for dr in dirs:
+            print("nothing")
             cnt += len(glob.glob(os.path.join(r, dr + "/*")))
-    return cnt
-
-    
+    return cnt   
 
 def split_image(origindatadir,traindir,overload = False):
     """Move dogs and cats image to separate directory"""
@@ -31,7 +31,8 @@ def split_image(origindatadir,traindir,overload = False):
         os.mkdir(cats_dir)
         os.mkdir(dogs_dir)
     else:
-        if get_num_files(traindir) > 0:
+        #print(traindir)
+        if get_subdir_filenum(traindir) > 0:
             if overload:
                 shutil.rmtree(traindir)
                 os.mkdir(traindir)               
