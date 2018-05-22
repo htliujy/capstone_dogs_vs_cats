@@ -9,3 +9,5 @@ processed_train_data*
 .ipy*
 .DS_Store
 log/*
+prediction/*.pkl
+
