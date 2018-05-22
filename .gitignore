@@ -1,5 +1,5 @@
-train*
-test*
+train/*
+test/*
 processed_test_data*
 processed_train_data*
 *.h5
