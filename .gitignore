@@ -10,4 +10,5 @@ processed_train_data*
 .DS_Store
 log/*
 prediction/*.pkl
-
+prediction/*.pkl
+AWS_trained_model*
