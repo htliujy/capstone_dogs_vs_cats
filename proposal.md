@@ -92,3 +92,6 @@ $$\textrm{LogLoss} = - \frac{1}{n} \sum_{i=1}^n \left[ y_i \log(\hat{y}_i) + (1 
 [3] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition. [arXiv:1406.4729v4](https://arxiv.org/abs/1406.4729v4)
 
 [4] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, Zbigniew Wojna. Rethinking the Inception Architecture for Computer Vision. [ arXiv:1512.00567](https://arxiv.org/abs/1512.00567)
+
+图片增强
+
