@@ -1,0 +1,519 @@
+[I 13:33:24.448 NotebookApp] [nb_conda_kernels] enabled, 16 kernels found
+[W 13:33:24.719 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 13:33:24.755 NotebookApp] [nb_anacondacloud] enabled
+[I 13:33:24.758 NotebookApp] [nb_conda] enabled
+[I 13:33:24.795 NotebookApp] \u2713 nbpresent HTML export ENABLED
+[W 13:33:24.796 NotebookApp] \u2717 nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 13:33:25.065 NotebookApp] sparkmagic extension enabled!
+[I 13:33:25.067 NotebookApp] Serving notebooks from local directory: /home/ubuntu/MyPro2/capstone_dogs_vs_cats
+[I 13:33:25.067 NotebookApp] 0 active kernels
+[I 13:33:25.067 NotebookApp] The Jupyter Notebook is running at:
+[I 13:33:25.068 NotebookApp] http://[all ip addresses on your system]:8888/
+[I 13:33:25.068 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:33:26.970 NotebookApp] 404 GET /api/contents/MyPro2/capstone_dogs_vs_cats?type=directory&_=1527427666079 (113.67.226.122): No such file or directory: MyPro2/capstone_dogs_vs_cats
+[W 13:33:26.970 NotebookApp] No such file or directory: MyPro2/capstone_dogs_vs_cats
+[W 13:33:26.971 NotebookApp] 404 GET /api/contents/MyPro2/capstone_dogs_vs_cats?type=directory&_=1527427666079 (113.67.226.122) 0.98ms referer=http://18.221.93.43:8888/tree/MyPro2/capstone_dogs_vs_cats
+[W 13:33:37.556 NotebookApp] 404 GET /tree/MyPro2/capstone_dogs_vs_cats (113.67.226.122) 26.78ms referer=http://18.221.93.43:8888/tree/MyPro2
+[W 13:33:37.557 NotebookApp] 404 GET /api/contents/MyPro2/capstone_dogs_vs_cats?type=directory&_=1527427666082 (113.67.226.122): No such file or directory: MyPro2/capstone_dogs_vs_cats
+[W 13:33:37.558 NotebookApp] No such file or directory: MyPro2/capstone_dogs_vs_cats
+[W 13:33:37.558 NotebookApp] 404 GET /api/contents/MyPro2/capstone_dogs_vs_cats?type=directory&_=1527427666082 (113.67.226.122) 0.86ms referer=http://18.221.93.43:8888/tree/MyPro2/capstone_dogs_vs_cats
+[I 13:33:42.550 NotebookApp] 302 GET / (113.67.226.122) 0.47ms
+[W 13:33:43.325 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.21ms referer=http://18.221.93.43:8888/tree?
+[W 13:33:43.766 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.13ms referer=http://18.221.93.43:8888/tree?
+[W 13:33:54.536 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.09ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[W 13:33:54.693 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.40ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[I 13:33:54.935 NotebookApp] Kernel started: 7b7a901b-2e2e-410b-9ecd-cbab54a3a6ab
+[W 13:33:54.966 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.45ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[I 13:33:55.451 NotebookApp] Adapting to protocol v5.1 for kernel 7b7a901b-2e2e-410b-9ecd-cbab54a3a6ab
+2018-05-27 13:34:04.861333: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 13:34:04.948956: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 13:34:04.949291: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 13:34:04.949312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[W 13:34:51.223 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.59ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 13:34:51.225 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.15ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 13:34:51.248 NotebookApp] Notebook 6_features_train.ipynb is not trusted
+[W 13:34:53.012 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.62ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[I 13:34:55.178 NotebookApp] Kernel started: abe6cd15-4597-4614-8059-77acba77622d
+[I 13:34:55.793 NotebookApp] Adapting to protocol v5.1 for kernel abe6cd15-4597-4614-8059-77acba77622d
+[I 13:35:56.708 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:37:56.151 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:39:56.276 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:41:58.244 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:43:59.069 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:46:02.254 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:47:57.785 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:49:56.322 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:51:56.156 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:52:36.061 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 13:52:49.874 NotebookApp] Starting buffering for 7b7a901b-2e2e-410b-9ecd-cbab54a3a6ab:BE19FA7427DC4C2CB829D686355BE565
+2018-05-27 13:53:27.448743: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 13:53:27.513923: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 13:53:27.514125: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 415.12MiB
+2018-05-27 13:53:27.514147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[W 13:55:03.894 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.23ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 13:55:03.901 NotebookApp] Notebook 7_prediction_and_unload.ipynb is not trusted
+[W 13:55:04.168 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.38ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 13:55:04.443 NotebookApp] Kernel started: cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4
+[I 13:55:04.960 NotebookApp] Adapting to protocol v5.1 for kernel cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4
+[W 13:55:05.181 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.51ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+2018-05-27 13:56:07.172782: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 13:56:07.239180: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 13:56:07.239380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 116.75MiB
+2018-05-27 13:56:07.239403: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+2018-05-27 13:56:08.157250: E tensorflow/stream_executor/cuda/cuda_blas.cc:366] failed to create cublas handle: CUBLAS_STATUS_NOT_INITIALIZED
+2018-05-27 13:56:08.176942: E tensorflow/stream_executor/cuda/cuda_blas.cc:366] failed to create cublas handle: CUBLAS_STATUS_NOT_INITIALIZED
+2018-05-27 13:56:08.197319: E tensorflow/stream_executor/cuda/cuda_blas.cc:366] failed to create cublas handle: CUBLAS_STATUS_NOT_INITIALIZED
+2018-05-27 13:56:08.197345: W tensorflow/stream_executor/stream.cc:1901] attempting to perform BLAS operation using StreamExecutor without BLAS support
+[I 13:57:08.179 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 13:58:42.232 NotebookApp] Saving file at /6_features_train.ipynb
+[I 13:59:44.633 NotebookApp] Starting buffering for abe6cd15-4597-4614-8059-77acba77622d:0F3EE7D98F16402D94973466364E5ACE
+[I 13:59:50.249 NotebookApp] Kernel shutdown: 7b7a901b-2e2e-410b-9ecd-cbab54a3a6ab
+[I 13:59:51.454 NotebookApp] Kernel shutdown: abe6cd15-4597-4614-8059-77acba77622d
+[I 14:00:02.120 NotebookApp] Starting buffering for cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4:9B2924B93B1842B199839920B003E20B
+[I 14:00:03.820 NotebookApp] Kernel restarted: cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4
+[I 14:00:05.442 NotebookApp] Adapting to protocol v5.1 for kernel cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4
+[I 14:00:05.443 NotebookApp] Restoring connection for cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4:9B2924B93B1842B199839920B003E20B
+[I 14:00:05.443 NotebookApp] Replaying 3 buffered messages
+2018-05-27 14:00:08.431518: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:00:08.517159: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:00:08.517492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:00:08.517514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:01:04.080 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:01:06.978 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:03:08.444 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[W 14:04:51.797 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.55ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 14:04:51.875 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.18ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 14:04:52.255 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.27ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[I 14:04:58.748 NotebookApp] Kernel started: 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:04:59.390 NotebookApp] Adapting to protocol v5.1 for kernel 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:05:05.991 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:05:32.305 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:05:34.273 NotebookApp] Starting buffering for cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4:9B2924B93B1842B199839920B003E20B
+[I 14:05:40.110 NotebookApp] Kernel shutdown: cc029a63-87f0-45d8-9dc7-d2e0e04f6cb4
+[I 14:05:42.662 NotebookApp] Starting buffering for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:05:42.970 NotebookApp] Kernel restarted: 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:05:43.938 NotebookApp] Adapting to protocol v5.1 for kernel 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:05:43.939 NotebookApp] Restoring connection for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:05:43.939 NotebookApp] Replaying 3 buffered messages
+2018-05-27 14:05:47.447888: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:05:47.534236: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:05:47.534614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:05:47.534637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:07:12.218 NotebookApp] Starting buffering for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:07:13.829 NotebookApp] Kernel restarted: 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:07:15.220 NotebookApp] Adapting to protocol v5.1 for kernel 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:07:15.221 NotebookApp] Restoring connection for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:07:15.221 NotebookApp] Replaying 3 buffered messages
+2018-05-27 14:07:18.829786: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:07:18.915995: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:07:18.916348: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:07:18.916372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:08:45.173 NotebookApp] Kernel interrupted: 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:08:52.828 NotebookApp] Starting buffering for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:08:54.440 NotebookApp] Kernel restarted: 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:08:56.269 NotebookApp] Adapting to protocol v5.1 for kernel 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:08:56.270 NotebookApp] Restoring connection for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:08:56.270 NotebookApp] Replaying 3 buffered messages
+2018-05-27 14:08:59.495479: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:08:59.567795: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:08:59.568125: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:08:59.568146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:09:05.429 NotebookApp] Saving file at /6_features_train.ipynb
+[I 14:10:27.776 NotebookApp] Starting buffering for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:10:29.384 NotebookApp] Kernel restarted: 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:10:31.179 NotebookApp] Adapting to protocol v5.1 for kernel 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[I 14:10:31.179 NotebookApp] Restoring connection for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:10:31.179 NotebookApp] Replaying 3 buffered messages
+2018-05-27 14:10:35.576900: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:10:35.663149: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:10:35.663479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:10:35.663500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:11:00.349 NotebookApp] Saving file at /6_features_train.ipynb
+[I 14:15:17.379 NotebookApp] Saving file at /6_features_train.ipynb
+[I 14:15:30.929 NotebookApp] Starting buffering for 8a9a07cc-5c26-4d08-90d4-d549cc9134db:81A9912F7C8E4BAB803CCE7E4D50E069
+[I 14:15:35.597 NotebookApp] Kernel shutdown: 8a9a07cc-5c26-4d08-90d4-d549cc9134db
+[W 14:15:36.824 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.08ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 14:15:37.430 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.23ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 14:15:38.542 NotebookApp] Kernel started: 3d3ff341-5341-4927-b498-b07dd277bc83
+[I 14:15:39.176 NotebookApp] Adapting to protocol v5.1 for kernel 3d3ff341-5341-4927-b498-b07dd277bc83
+[W 14:15:39.506 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.38ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 14:15:43.336 NotebookApp] Saving file at /6_features_train.ipynb
+[I 14:15:45.448 NotebookApp] Starting buffering for 3d3ff341-5341-4927-b498-b07dd277bc83:B354D34B67F64FD98D3F2073D844061D
+[I 14:15:45.655 NotebookApp] Kernel restarted: 3d3ff341-5341-4927-b498-b07dd277bc83
+[I 14:15:48.158 NotebookApp] Adapting to protocol v5.1 for kernel 3d3ff341-5341-4927-b498-b07dd277bc83
+[I 14:15:48.159 NotebookApp] Restoring connection for 3d3ff341-5341-4927-b498-b07dd277bc83:B354D34B67F64FD98D3F2073D844061D
+[I 14:15:48.159 NotebookApp] Replaying 3 buffered messages
+2018-05-27 14:15:50.109897: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:15:50.195270: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:15:50.195602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:15:50.195624: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:15:56.867 NotebookApp] Saving file at /6_features_train.ipynb
+[W 14:16:12.073 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.09ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 14:16:12.182 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.10ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 14:16:12.467 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.07ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[I 14:16:20.290 NotebookApp] Kernel started: e7ce9ace-00de-4128-9ec7-b1418c130265
+[I 14:16:20.805 NotebookApp] Adapting to protocol v5.1 for kernel e7ce9ace-00de-4128-9ec7-b1418c130265
+[I 14:17:40.091 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:18:27.389 NotebookApp] Starting buffering for e7ce9ace-00de-4128-9ec7-b1418c130265:31E5CEB17CA54F9A8DC6C3828EBBFDEC
+[I 14:18:32.025 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:18:32.083 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:18:34.897 NotebookApp] Kernel shutdown: e7ce9ace-00de-4128-9ec7-b1418c130265
+[I 14:18:41.278 NotebookApp] Kernel shutdown: 3d3ff341-5341-4927-b498-b07dd277bc83
+[W 14:19:25.315 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.16ms referer=http://18.221.93.43:8888/notebooks/1_img_split_and_move.ipynb
+[W 14:19:25.467 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.36ms referer=http://18.221.93.43:8888/notebooks/1_img_split_and_move.ipynb
+[W 14:19:26.597 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.34ms referer=http://18.221.93.43:8888/notebooks/1_img_split_and_move.ipynb
+[I 14:19:28.921 NotebookApp] Kernel started: cd7623e2-8dd2-43d2-89ea-ce945ae50ef7
+[I 14:19:29.513 NotebookApp] Adapting to protocol v5.1 for kernel cd7623e2-8dd2-43d2-89ea-ce945ae50ef7
+[I 14:19:59.812 NotebookApp] Starting buffering for cd7623e2-8dd2-43d2-89ea-ce945ae50ef7:73A89FD1AFE34B47AF0382B3B5A779F9
+[W 14:20:07.205 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.20ms referer=http://18.221.93.43:8888/notebooks/3_delete_abnormal_img.ipynb
+[I 14:20:07.428 NotebookApp] Kernel started: a457077e-47c4-4fc4-9720-6dc8648ef586
+[W 14:20:07.959 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.46ms referer=http://18.221.93.43:8888/notebooks/3_delete_abnormal_img.ipynb
+[I 14:20:07.987 NotebookApp] Adapting to protocol v5.1 for kernel a457077e-47c4-4fc4-9720-6dc8648ef586
+[W 14:20:08.128 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.39ms referer=http://18.221.93.43:8888/notebooks/3_delete_abnormal_img.ipynb
+[I 14:20:09.798 NotebookApp] Kernel shutdown: cd7623e2-8dd2-43d2-89ea-ce945ae50ef7
+[I 14:20:27.569 NotebookApp] Saving file at /3_delete_abnormal_img.ipynb
+[I 14:20:29.529 NotebookApp] Starting buffering for a457077e-47c4-4fc4-9720-6dc8648ef586:519C1E3818C048D1867C24EDBFE616E0
+[W 14:20:36.315 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.51ms referer=http://18.221.93.43:8888/notebooks/4_data_turbo_boost.ipynb
+[W 14:20:36.316 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.04ms referer=http://18.221.93.43:8888/notebooks/4_data_turbo_boost.ipynb
+[W 14:20:37.717 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.80ms referer=http://18.221.93.43:8888/notebooks/4_data_turbo_boost.ipynb
+[I 14:20:42.271 NotebookApp] Kernel started: 806c5d8a-fb3b-4f61-93ad-7816bc6fcf80
+[I 14:20:43.943 NotebookApp] Adapting to protocol v5.1 for kernel 806c5d8a-fb3b-4f61-93ad-7816bc6fcf80
+[I 14:24:40.507 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:25:27.164 NotebookApp] Kernel shutdown: a457077e-47c4-4fc4-9720-6dc8648ef586
+[W 14:25:29.869 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.06ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[W 14:25:30.091 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.05ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[I 14:25:30.876 NotebookApp] Kernel started: dd781372-4174-4cb4-a8f2-852503286fcf
+[W 14:25:31.333 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.49ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[I 14:25:31.381 NotebookApp] Adapting to protocol v5.1 for kernel dd781372-4174-4cb4-a8f2-852503286fcf
+2018-05-27 14:25:42.125698: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:25:42.210452: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:25:42.210784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:25:42.210807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:27:30.971 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 14:28:12.444 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:29:32.740 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 14:31:32.782 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 14:33:32.155 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 14:34:38.365 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:35:28.997 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:35:33.067 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:35:34.867 NotebookApp] Saving file at /5_feature_extract.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 435, in complete_request
+    matches, parent, ident)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/jupyter_client/session.py", line 730, in send
+    to_send = self.serialize(msg, ident)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/jupyter_client/session.py", line 625, in serialize
+    content = self.pack(content)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/jupyter_client/session.py", line 103, in <lambda>
+    ensure_ascii=False, allow_nan=False,
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/zmq/utils/jsonapi.py", line 43, in dumps
+    s = s.encode('utf8')
+UnicodeEncodeError: 'utf-8' codec can't encode characters in position 3944-3967: surrogates not allowed
+[I 14:36:48.439 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:37:04.125 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:37:25.614 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:37:53.890 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:37:55.788 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 14:39:15.683 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:40:03.932 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:40:13.904 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:40:37.991 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:41:09.064 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:42:18.182 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 14:44:00.856 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 14:44:16.930 NotebookApp] Starting buffering for dd781372-4174-4cb4-a8f2-852503286fcf:737510718A1143939C093116DC189D66
+[I 14:44:26.209 NotebookApp] Kernel shutdown: dd781372-4174-4cb4-a8f2-852503286fcf
+[W 14:44:30.963 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.49ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 14:44:31.184 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.40ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 14:44:32.175 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.38ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[I 14:44:37.507 NotebookApp] Kernel started: 307081dc-5451-443d-9c5a-bbd915a15e45
+[I 14:44:38.510 NotebookApp] Adapting to protocol v5.1 for kernel 307081dc-5451-443d-9c5a-bbd915a15e45
+2018-05-27 14:44:41.918612: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:44:42.005358: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:44:42.005690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:44:42.005712: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:48:02.023 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:49:44.859 NotebookApp] Saving file at /6_features_train.ipynb
+[I 14:50:02.768 NotebookApp] Starting buffering for 307081dc-5451-443d-9c5a-bbd915a15e45:3FA04CE937B44F77830F20774C51D163
+[I 14:50:16.216 NotebookApp] Kernel shutdown: 307081dc-5451-443d-9c5a-bbd915a15e45
+[I 14:50:16.419 NotebookApp] Kernel shutdown: 806c5d8a-fb3b-4f61-93ad-7816bc6fcf80
+[I 14:50:17.685 NotebookApp] Saving file at /6_features_train.ipynb
+[W 14:50:22.144 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.10ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 14:50:22.373 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.19ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 14:50:23.471 NotebookApp] Kernel started: efcdd78e-bec5-4f1e-81da-9981a35a1d06
+[W 14:50:23.663 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.79ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 14:50:24.093 NotebookApp] Adapting to protocol v5.1 for kernel efcdd78e-bec5-4f1e-81da-9981a35a1d06
+2018-05-27 14:50:27.476248: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:50:27.562609: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:50:27.562944: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:50:27.562965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:52:22.928 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:53:04.004 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 14:53:14.929 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 14:53:19.552 NotebookApp] Starting buffering for efcdd78e-bec5-4f1e-81da-9981a35a1d06:405B20A80FB14F2CBAFF3E23DFA5982A
+[I 14:53:23.755 NotebookApp] Kernel shutdown: efcdd78e-bec5-4f1e-81da-9981a35a1d06
+[I 14:53:32.591 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[W 14:53:55.529 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.13ms referer=http://18.221.93.43:8888/notebooks/1_img_split_and_move.ipynb
+[W 14:53:55.633 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.09ms referer=http://18.221.93.43:8888/notebooks/1_img_split_and_move.ipynb
+[W 14:53:57.803 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.43ms referer=http://18.221.93.43:8888/notebooks/1_img_split_and_move.ipynb
+[I 14:54:01.048 NotebookApp] Kernel started: dec67969-087e-4fa2-b807-e8011f61f758
+[I 14:54:01.576 NotebookApp] Adapting to protocol v5.1 for kernel dec67969-087e-4fa2-b807-e8011f61f758
+[I 14:54:20.036 NotebookApp] Starting buffering for dec67969-087e-4fa2-b807-e8011f61f758:E2E1E1F35F1046FC85E23741F6CF393D
+[I 14:54:27.678 NotebookApp] Kernel shutdown: dec67969-087e-4fa2-b807-e8011f61f758
+[W 14:54:30.596 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.16ms referer=http://18.221.93.43:8888/notebooks/3_delete_abnormal_img.ipynb
+[W 14:54:30.799 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.16ms referer=http://18.221.93.43:8888/notebooks/3_delete_abnormal_img.ipynb
+[I 14:54:31.730 NotebookApp] Kernel started: 75d528a2-1c03-4018-ba4f-b219904fcdce
+[W 14:54:31.754 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.35ms referer=http://18.221.93.43:8888/notebooks/3_delete_abnormal_img.ipynb
+[I 14:54:32.246 NotebookApp] Adapting to protocol v5.1 for kernel 75d528a2-1c03-4018-ba4f-b219904fcdce
+[I 14:54:44.565 NotebookApp] Starting buffering for 75d528a2-1c03-4018-ba4f-b219904fcdce:668A28699D2440B8BB65813F272B141D
+[I 14:54:47.316 NotebookApp] Kernel shutdown: 75d528a2-1c03-4018-ba4f-b219904fcdce
+[W 14:54:51.294 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.12ms referer=http://18.221.93.43:8888/notebooks/4_data_turbo_boost.ipynb
+[W 14:54:51.296 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.00ms referer=http://18.221.93.43:8888/notebooks/4_data_turbo_boost.ipynb
+[W 14:54:51.768 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.18ms referer=http://18.221.93.43:8888/notebooks/4_data_turbo_boost.ipynb
+[I 14:54:54.568 NotebookApp] Kernel started: 6379c743-d13a-4746-a606-ce365a5ccda4
+[I 14:54:55.080 NotebookApp] Adapting to protocol v5.1 for kernel 6379c743-d13a-4746-a606-ce365a5ccda4
+[W 14:58:25.726 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.31ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[W 14:58:25.948 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.39ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[I 14:58:26.900 NotebookApp] Kernel started: 3bbbdd9c-97d5-431a-ade1-d998c54d6cac
+[W 14:58:27.039 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.77ms referer=http://18.221.93.43:8888/notebooks/5_feature_extract.ipynb
+[I 14:58:27.484 NotebookApp] Adapting to protocol v5.1 for kernel 3bbbdd9c-97d5-431a-ade1-d998c54d6cac
+2018-05-27 14:58:44.519416: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 14:58:44.605840: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 14:58:44.606174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 14:58:44.606195: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 14:58:52.125 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 15:00:26.697 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:02:28.082 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:02:36.451 NotebookApp] Saving file at /4_data_turbo_boost.ipynb
+[I 15:04:28.666 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:06:28.113 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:08:27.605 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:10:27.476 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:12:27.539 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:14:27.619 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:16:29.392 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:16:42.205 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:16:42.802 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:16:43.411 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:16:45.435 NotebookApp] Saving file at /5_feature_extract.ipynb
+[I 15:16:45.725 NotebookApp] Starting buffering for 3bbbdd9c-97d5-431a-ade1-d998c54d6cac:9A93B208731E465BB092F13AD52CF360
+[I 15:16:47.764 NotebookApp] Starting buffering for 6379c743-d13a-4746-a606-ce365a5ccda4:19A0233DF4D34A42823A1F5BA8D6F5FF
+[I 15:16:52.144 NotebookApp] Kernel shutdown: 6379c743-d13a-4746-a606-ce365a5ccda4
+[I 15:16:53.950 NotebookApp] Kernel shutdown: 3bbbdd9c-97d5-431a-ade1-d998c54d6cac
+[W 15:16:57.961 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.59ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 15:16:57.965 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 0.95ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 15:17:00.110 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.27ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[I 15:17:05.649 NotebookApp] Kernel started: 8a4e8722-6ae3-48ff-bcb4-3efd8e5310bd
+[I 15:17:09.950 NotebookApp] Adapting to protocol v5.1 for kernel 8a4e8722-6ae3-48ff-bcb4-3efd8e5310bd
+2018-05-27 15:17:14.048997: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 15:17:14.121277: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 15:17:14.121615: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 15:17:14.121636: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 15:19:39.551 NotebookApp] Kernel shutdown: 8a4e8722-6ae3-48ff-bcb4-3efd8e5310bd
+[W 15:19:41.436 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.17ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 15:19:41.739 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.26ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 15:19:43.090 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.29ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 15:19:43.635 NotebookApp] Kernel started: 96e7b8d0-47f9-4a35-b46b-853d25c52fd8
+[I 15:19:46.361 NotebookApp] Adapting to protocol v5.1 for kernel 96e7b8d0-47f9-4a35-b46b-853d25c52fd8
+2018-05-27 15:19:55.563147: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 15:19:55.648041: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 15:19:55.648410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 15:19:55.648434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 15:21:38.221 NotebookApp] 302 GET / (141.212.122.48) 0.44ms
+[I 15:21:38.255 NotebookApp] 302 GET /tree? (141.212.122.48) 0.78ms
+[I 15:21:43.742 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 15:22:29.082 NotebookApp] Starting buffering for 96e7b8d0-47f9-4a35-b46b-853d25c52fd8:B706AF8D347C4FCA8AE62C1C0B90F05C
+[E 15:22:50.445 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 264, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 343, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 8a4e8722-6ae3-48ff-bcb4-3efd8e5310bd)
+[E 15:22:50.542 NotebookApp] {
+      "Host": "18.221.93.43:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://18.221.93.43:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|daa19706|01c02d85adf7ce16eaea05e0407f6ca0|1527424423",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",
+      "Referer": "http://18.221.93.43:8888/notebooks/6_features_train.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "zh-CN,zh;q=0.9",
+      "Cookie": "_xsrf=2|daa19706|01c02d85adf7ce16eaea05e0407f6ca0|1527424423; username-18-221-93-43-8888=\"2|1:0|10:1527424430|26:username-18-221-93-43-8888|44:YzRlY2ZjNTU2YzY5NDkyYjk3NDc5NGU0YzZmYzE2MjI=|e4437161af030a038bbaa3cf64a02514739239ba0d12cabb9be6d60c27aea7a8\""
+    }
+[E 15:22:50.542 NotebookApp] 500 POST /api/kernels/8a4e8722-6ae3-48ff-bcb4-3efd8e5310bd/restart (113.67.226.122) 98.12ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 15:22:51.634 NotebookApp] 404 DELETE /api/sessions/0f697ff7-1229-4796-9fc5-106e2f5a23e3 (113.67.226.122): Session not found: session_id='0f697ff7-1229-4796-9fc5-106e2f5a23e3'
+[W 15:22:51.634 NotebookApp] Session not found: session_id='0f697ff7-1229-4796-9fc5-106e2f5a23e3'
+[W 15:22:51.635 NotebookApp] 404 DELETE /api/sessions/0f697ff7-1229-4796-9fc5-106e2f5a23e3 (113.67.226.122) 1.14ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[I 15:22:52.522 NotebookApp] Kernel started: 5fa5d625-487b-46fd-a704-a56425d46808
+[I 15:22:53.817 NotebookApp] Adapting to protocol v5.1 for kernel 5fa5d625-487b-46fd-a704-a56425d46808
+[I 15:22:57.543 NotebookApp] Saving file at /6_features_train.ipynb
+2018-05-27 15:23:14.275731: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 15:23:14.340600: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 15:23:14.340803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 460.12MiB
+2018-05-27 15:23:14.340834: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 15:23:22.975 NotebookApp] Saving file at /6_features_train.ipynb
+[I 15:24:22.856 NotebookApp] Kernel shutdown: 5fa5d625-487b-46fd-a704-a56425d46808
+[W 15:24:26.998 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180527133324 (113.67.226.122) 1.17ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 15:24:27.969 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (113.67.226.122) 1.25ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 15:24:28.057 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180527133324 (113.67.226.122) 1.17ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 15:24:28.934 NotebookApp] Adapting to protocol v5.1 for kernel 96e7b8d0-47f9-4a35-b46b-853d25c52fd8
+[I 15:24:53.272 NotebookApp] Saving file at /6_features_train.ipynb
+[I 15:25:42.498 NotebookApp] Kernel shutdown: 96e7b8d0-47f9-4a35-b46b-853d25c52fd8
+[I 15:26:28.368 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[W 15:26:31.837 NotebookApp] 404 POST /api/kernels/5fa5d625-487b-46fd-a704-a56425d46808/interrupt (113.67.226.122): Kernel does not exist: 5fa5d625-487b-46fd-a704-a56425d46808
+[W 15:26:31.837 NotebookApp] Kernel does not exist: 5fa5d625-487b-46fd-a704-a56425d46808
+[W 15:26:31.837 NotebookApp] 404 POST /api/kernels/5fa5d625-487b-46fd-a704-a56425d46808/interrupt (113.67.226.122) 1.14ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[E 15:26:39.077 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 264, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 343, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5fa5d625-487b-46fd-a704-a56425d46808)
+[E 15:26:39.078 NotebookApp] {
+      "Host": "18.221.93.43:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://18.221.93.43:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|daa19706|01c02d85adf7ce16eaea05e0407f6ca0|1527424423",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",
+      "Referer": "http://18.221.93.43:8888/notebooks/6_features_train.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "zh-CN,zh;q=0.9",
+      "Cookie": "_xsrf=2|daa19706|01c02d85adf7ce16eaea05e0407f6ca0|1527424423; username-18-221-93-43-8888=\"2|1:0|10:1527424430|26:username-18-221-93-43-8888|44:YzRlY2ZjNTU2YzY5NDkyYjk3NDc5NGU0YzZmYzE2MjI=|e4437161af030a038bbaa3cf64a02514739239ba0d12cabb9be6d60c27aea7a8\""
+    }
+[E 15:26:39.078 NotebookApp] 500 POST /api/kernels/5fa5d625-487b-46fd-a704-a56425d46808/restart (113.67.226.122) 1.04ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[W 15:26:39.402 NotebookApp] 404 DELETE /api/sessions/9d2b6540-755e-4c7b-9dc9-f2a580d69525 (113.67.226.122): Session not found: session_id='9d2b6540-755e-4c7b-9dc9-f2a580d69525'
+[W 15:26:39.402 NotebookApp] Session not found: session_id='9d2b6540-755e-4c7b-9dc9-f2a580d69525'
+[W 15:26:39.402 NotebookApp] 404 DELETE /api/sessions/9d2b6540-755e-4c7b-9dc9-f2a580d69525 (113.67.226.122) 0.94ms referer=http://18.221.93.43:8888/notebooks/6_features_train.ipynb
+[I 15:26:40.268 NotebookApp] Kernel started: bae2ee2b-621f-4837-98c5-9198d6855e81
+[I 15:26:41.005 NotebookApp] Adapting to protocol v5.1 for kernel bae2ee2b-621f-4837-98c5-9198d6855e81
+[I 15:27:03.837 NotebookApp] Saving file at /6_features_train.ipynb
+2018-05-27 15:27:27.104616: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 15:27:27.190072: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 15:27:27.190402: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 15:27:27.190423: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 15:28:20.066 NotebookApp] Saving file at /6_features_train.ipynb
+[I 15:28:29.031 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 15:28:52.045 NotebookApp] Kernel restarted: bae2ee2b-621f-4837-98c5-9198d6855e81
+[I 15:28:52.050 NotebookApp] Starting buffering for bae2ee2b-621f-4837-98c5-9198d6855e81:4CD57A40F15341AE883520D466DD2DA9
+[I 15:28:53.401 NotebookApp] Adapting to protocol v5.1 for kernel bae2ee2b-621f-4837-98c5-9198d6855e81
+[I 15:28:53.401 NotebookApp] Restoring connection for bae2ee2b-621f-4837-98c5-9198d6855e81:4CD57A40F15341AE883520D466DD2DA9
+[I 15:28:53.401 NotebookApp] Replaying 3 buffered messages
+2018-05-27 15:28:57.095591: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 15:28:57.180903: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 15:28:57.181235: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 15:28:57.181258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 15:30:04.363 NotebookApp] Saving file at /6_features_train.ipynb
+[I 15:30:15.801 NotebookApp] Kernel shutdown: bae2ee2b-621f-4837-98c5-9198d6855e81
+[E 15:30:23.062 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 264, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 343, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 96e7b8d0-47f9-4a35-b46b-853d25c52fd8)
+[E 15:30:23.062 NotebookApp] {
+      "Host": "18.221.93.43:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://18.221.93.43:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|daa19706|01c02d85adf7ce16eaea05e0407f6ca0|1527424423",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",
+      "Referer": "http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "zh-CN,zh;q=0.9",
+      "Cookie": "_xsrf=2|daa19706|01c02d85adf7ce16eaea05e0407f6ca0|1527424423; username-18-221-93-43-8888=\"2|1:0|10:1527424430|26:username-18-221-93-43-8888|44:YzRlY2ZjNTU2YzY5NDkyYjk3NDc5NGU0YzZmYzE2MjI=|e4437161af030a038bbaa3cf64a02514739239ba0d12cabb9be6d60c27aea7a8\""
+    }
+[E 15:30:23.062 NotebookApp] 500 POST /api/kernels/96e7b8d0-47f9-4a35-b46b-853d25c52fd8/restart (113.67.226.122) 1.05ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[W 15:30:24.066 NotebookApp] 404 DELETE /api/sessions/170e3b2e-04eb-4024-95a0-4a69a3ce70e5 (113.67.226.122): Session not found: session_id='170e3b2e-04eb-4024-95a0-4a69a3ce70e5'
+[W 15:30:24.066 NotebookApp] Session not found: session_id='170e3b2e-04eb-4024-95a0-4a69a3ce70e5'
+[W 15:30:24.066 NotebookApp] 404 DELETE /api/sessions/170e3b2e-04eb-4024-95a0-4a69a3ce70e5 (113.67.226.122) 1.18ms referer=http://18.221.93.43:8888/notebooks/7_prediction_and_unload.ipynb
+[I 15:30:24.934 NotebookApp] Kernel started: 2675bca9-0462-4b8d-9780-96618f7a4eaf
+[I 15:30:25.525 NotebookApp] Adapting to protocol v5.1 for kernel 2675bca9-0462-4b8d-9780-96618f7a4eaf
+2018-05-27 15:30:35.114184: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-05-27 15:30:35.198476: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-27 15:30:35.198807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-05-27 15:30:35.198829: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+[I 15:30:37.337 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 15:32:30.875 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 15:33:21.746 NotebookApp] Saving file at /7_prediction_and_unload.ipynb
+[I 15:33:46.135 NotebookApp] Starting buffering for 2675bca9-0462-4b8d-9780-96618f7a4eaf:E30BBAF9D9034C0AAAB177CCA50534FF
+[I 15:34:33.908 NotebookApp] Saving file at /6_features_train.ipynb
+[I 15:36:53.236 NotebookApp] Saving file at /6_features_train.ipynb
+[I 15:37:10.893 NotebookApp] Saving file at /6_features_train.ipynb
