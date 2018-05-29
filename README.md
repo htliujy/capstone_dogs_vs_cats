@@ -92,7 +92,7 @@ tensorflow-tensorboard	0.4.0rc3
 
 
 
-以report为开头的jupyter notebook文件为项目报告及过程中的辅助文件，不必执行
+以report为开头的jupyter notebook文件为项目报告作图及过程中验证算法的辅助文件，不必执行
 
 report_1_show_CNN.ipynb
 
