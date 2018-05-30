@@ -6,6 +6,7 @@
 
 项目报告详见project_report.pdf
 
+结果存储于：prediction/pred_test.csv
 
 
 运行环境：Ubuntu 16.04.3 
